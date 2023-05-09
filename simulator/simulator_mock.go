@@ -2,6 +2,11 @@ package simulator
 
 import "github.com/stretchr/testify/mock"
 
+// builder
+func NewCatchSimulatorMockTestify() *CatchSimulatorMockTestify {
+	return &CatchSimulatorMockTestify{}
+}
+
 type CatchSimulatorMockTestify struct {
 	//  provides a system by which it is possible to mock your objects and verify calls are happening as expected
 	// advantage of the library: it has a method you don't have to do the spy as in the manual way
