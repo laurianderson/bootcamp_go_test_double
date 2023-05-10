@@ -1,0 +1,7 @@
+mode: set
+testdoubles/shark/white_shark.go:11.13,13.2 1 1
+testdoubles/shark/white_shark.go:24.49,25.95 1 1
+testdoubles/shark/white_shark.go:25.95,28.3 2 0
+testdoubles/shark/white_shark.go:29.2,29.46 1 1
+testdoubles/shark/white_shark.go:32.65,38.2 1 0
+testdoubles/shark/white_shark.go:40.38,45.2 4 0
