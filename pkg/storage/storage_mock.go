@@ -2,6 +2,9 @@ package storage
 
 import "github.com/stretchr/testify/mock"
 
+func NewStorageMock() *StorageMock {
+	return &StorageMock{}
+}
 
 type StorageMock struct {
 	mock.Mock
