@@ -1,14 +1,16 @@
 package shark
 
 import (
+	"testdoubles/pkg/storage"
 	"testdoubles/prey"
 	"testdoubles/simulator"
 	"testing"
-//	"github.com/stretchr/testify/assert"
+	// "github.com/stretchr/testify/assert"
 )
 
 func TestWhiteShark_Hunt(t *testing.T) {
 	// arrange
+	storage := storage.NewStorageMock()
 	pr := prey.NewPreyStub()
 	pr.GetSpeedFn = func() float64 {
  		return 0
